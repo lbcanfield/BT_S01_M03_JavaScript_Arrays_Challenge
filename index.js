@@ -2,37 +2,37 @@
 
 /* 👀 This is your data ⬇ */
 const originalFlavors = [
-  "Banana Nut Fudge",
-  "Black Walnut",
-  "Burgundy Cherry",
-  "Butterscotch Ribbon",
-  "Cherry Macaron",
-  "Chocolate",
-  "Chocolate Almond",
-  "Chocolate Chip",
-  "Chocolate Fudge",
-  "Chocolate Mint",
-  "Chocolate Ribbon",
-  "Coffee",
-  "Coffee Candy",
-  "Date Nut",
-  "Eggnog",
-  "French Vanilla",
-  "Green Mint Stick",
-  "Lemon Crisp",
-  "Lemon Custard",
-  "Lemon Sherbet",
-  "Maple Nut",
-  "Orange Sherbet",
-  "Peach",
-  "Peppermint Fudge Ribbon",
-  "Peppermint Stick",
-  "Pineapple Sherbet",
-  "Raspberry Sherbet",
-  "Rocky Road",
-  "Strawberry",
-  "Vanilla",
-  "Vanilla Burnt Almond"
+     "Banana Nut Fudge",
+     "Black Walnut",
+     "Burgundy Cherry",
+     "Butterscotch Ribbon",
+     "Cherry Macaron",
+     "Chocolate",
+     "Chocolate Almond",
+     "Chocolate Chip",
+     "Chocolate Fudge",
+     "Chocolate Mint",
+     "Chocolate Ribbon",
+     "Coffee",
+     "Coffee Candy",
+     "Date Nut",
+     "Eggnog",
+     "French Vanilla",
+     "Green Mint Stick",
+     "Lemon Crisp",
+     "Lemon Custard",
+     "Lemon Sherbet",
+     "Maple Nut",
+     "Orange Sherbet",
+     "Peach",
+     "Peppermint Fudge Ribbon",
+     "Peppermint Stick",
+     "Pineapple Sherbet",
+     "Raspberry Sherbet",
+     "Rocky Road",
+     "Strawberry",
+     "Vanilla",
+     "Vanilla Burnt Almond"
 ]
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1: Copy the Array! 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -46,8 +46,9 @@ Use the copy function below to do the following:
 */
 
 
-function copy(/*your code here*/){
-  /*your code here*/
+function copy(array) {
+     const tmpArray = [...array];
+     return tmpArray;
 }
 
 
@@ -63,9 +64,9 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 */
 
 
-function is31Flavors(/*your code here*/){
-  /*your code here*/
- }
+function is31Flavors(/*your code here*/) {
+     /*your code here*/
+}
 
 
 
@@ -82,9 +83,9 @@ Use the addFlavor function below to do the following:
 */
 
 
-function addFlavor(/*your code here*/){
-  /*your code here*/
- }
+function addFlavor(/*your code here*/) {
+     /*your code here*/
+}
 
 
 
@@ -100,8 +101,8 @@ Use the removeLastFlavor function below to do the following:
 */
 
 
-function removeLastFlavor(/*your code here*/){
- /*your code here*/
+function removeLastFlavor(/*your code here*/) {
+     /*your code here*/
 }
 
 
@@ -118,8 +119,8 @@ Use the getFlavorByIndex function below to do the following:
 */
 
 
-function getFlavorByIndex(/*your code here*/){
-  /*your code here*/
+function getFlavorByIndex(/*your code here*/) {
+     /*your code here*/
 }
 
 
@@ -138,8 +139,8 @@ Use the removeFlavorByName function below to do the following:
   HINT: You can use .splice() for this
 */
 
-function removeFlavorByName(/*your code here*/){
-  /*your code here*/
+function removeFlavorByName(/*your code here*/) {
+     /*your code here*/
 }
 
 
@@ -163,13 +164,13 @@ Use the filterByWord function below to do the following:
 */
 
 
-function filterByWord(/*your code here*/){
-  /*your code here*/
+function filterByWord(/*your code here*/) {
+     /*your code here*/
 }
 
 
 
-/* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/ 
+/* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/
 
 /* STRETCH 1: Write a function that returns the average number of words in an array. You should be able to use this function for any array, but can test with originalFlavors.
 
@@ -181,8 +182,8 @@ Use the getAverageWordLength function below to do the following:
   For example: getAverageWordLength(originalFlavors) should return a number between 0 and 3.     
 */
 
-function getAverageWordLength(/*code here*/){
-  /*code here*/
+function getAverageWordLength(/*code here*/) {
+     /*code here*/
 }
 
 
@@ -199,8 +200,8 @@ Use the getRandomFlavors function and new arrays below to do the following:
 */
 
 
-function getRandomFlavors(/*code here*/){
-  /*code here*/
+function getRandomFlavors(/*code here*/) {
+     /*code here*/
 }
 
 // NEW DATA ARRAYS FOR STRETCH 2 ⬇️
@@ -287,21 +288,21 @@ function getRandomFlavors(/*code here*/){
 
 
 /* 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 */
-function foo(){
-  console.log('its working');
-  return 'bar';
+function foo() {
+     console.log('its working');
+     return 'bar';
 }
 foo();
 module.exports = {
-  foo,
-  is31Flavors,
-  addFlavor,
-  removeLastFlavor,
-  getFlavorByIndex,
-  removeFlavorByName,
-  copy,
-  filterByWord,
-  getAverageWordLength,
-  getRandomFlavors
+     foo,
+     is31Flavors,
+     addFlavor,
+     removeLastFlavor,
+     getFlavorByIndex,
+     removeFlavorByName,
+     copy,
+     filterByWord,
+     getAverageWordLength,
+     getRandomFlavors
 }
 
